@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ELM Park Labs</title>
   <link href="./assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="./assets/styles/animate.css_4.1.1_animate.min.css" rel="stylesheet">
   <link href="./assets/styles/style.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
+<body class="w-100 bg-dark">
   <section class="bg_home_default">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent justify-content-between">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent justify-content-between animate__animated animate__fadeInDown">
         <div class="container-fluid mx-4">
           <a class="navbar-brand" href="#">
             <img src="./assets/images/logo.png" height="80" width="80">
@@ -40,29 +41,32 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="mt-5">
       <div class="container p-0 p-md-5">
         <div class="row">
-          <div class="col-md-5">
-            <h1 class="h1 text-white title-text">REALITY<br> REIMAGINED</h1>
-            <div class="text-sm fs-small text-white">
+          <div class="col-md-5 animate__animated animate__fadeInLeft">
+            <h1 class="h1 text-white title-text m-3 m-md-0">REALITY<br> REIMAGINED</h1>
+            <div class="text-sm fs-small text-white text-muted m-3 m-md-0">
               XR that transforms the way we learn, work, and interact.
             </div>
+            <a class="btn btn-outline-warning mb-2 text-uppercase px-5 py-2 mt-5 ms-3 ms-md-0 mt-md-5" href="#">About us</a>
           </div>
           <div class="col-md-7 justify-content-center d-flex">
-            <img class="home_banner_img" src="./assets/images/mobile_banner.png">
+            <img class="home_banner_img animate__animated animate__zoomInDown" src="./assets/images/mobile_banner.png">
           </div>
-          <div class="col-md-6">
-            <span class="text-warning">
-              <span></span>
-              <span class="text-uppercase">What we do</span>
+          <div class="col-md-12 mt-0 mt-md-5 mx-3 mx-md-0">
+            <span class="text-warning d-flex align-items-center animate__animated animate__fadeInLeft">
+              <span class="span-rect"></span>
+              <span class="text-uppercase mb-2 h5">What we do</span>
             </span>
+          </div>
+          <div class="col-md-6 mt-0 mt-md-5 mx-3 mx-md-0 animate__animated animate__fadeInRight">
             <div class="text-white h2">
               EXTENDED REALITY SOLUTION <br> THAT TRANSFORM YOUR BUSINESS
             </div>
           </div>
-          <div class="col-md-6">
-            <span class="text-sm text-white">Elm Park Labs develops enterprise-grade Extended Reality (XR) experiences
+          <div class="col-md-6 mt-0 mt-md-5 mx-3 mx-md-0 animate__animated animate__fadeInLeft">
+            <span class="text-sm text-white text-muted">Elm Park Labs develops enterprise-grade Extended Reality (XR) experiences
               custom tailored to your unique business needs.
               <br>
               <br>
@@ -72,55 +76,57 @@
             </span>
           </div>
         </div>
-
-
       </div>
     </main>
   </section>
   <section class="bg_home_2 p-5">
-    <div class="container">
+    <div class="container-md py-5 my-5">
       <div class="row">
-        <div class="col-md-6">
-          <span class="text-warning">
-            <span class="text-uppercase h5">EPL Platform</span>
+        <div class="col-12">
+          <span class="text-warning d-flex align-items-center mb-5">
+            <span class="span-rect animate__animated animate__fadeInRight"></span>
+            <span class="text-uppercase h5 animate__animated animate__fadeInLeft">EPL Platform</span>
           </span>
+        </div>
+        <div class="col-md-6 animate__animated animate__fadeInLeft">
           <div class="text-dark h1 text-uppercase">
             XR at Any Level, Anywhere
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 animate__animated animate__fadeInLeft">
           <span class="text-sm fs-small">The Elm Park Labs Modular Development Platform enables us to rapidly develop and
             deliver high-quality Extended Reality applications at any level of immersion. With our platform ready to go,
-            we can deliver in AR, VR, MR, desktop, or all of the above. </span>
+            we can deliver in AR, VR, MR, desktop, or all of the above.
+          </span>
         </div>
-        <div class="col-md-6">
-          <div class="my-5 border border-warning p-5 me-md-3">
+        <div class="col-md-6 animate__animated animate__fadeInRight">
+          <div class="my-5 border border-warning p-3 p-md-5 me-md-5">
             <img class="d-block mb-4" height="30" src="./assets/images/vr_ico.png">
-            <h3 class="text-uppercase h3 text-dark py-2">Virtual Reality (VR)</h3>
+            <h4 class="text-uppercase h4 text-dark py-2  text-md-nowrap fw-bolder">Virtual Reality (VR)</h4>
             <span class="text-small mt-3">Fully immersive virtual environment through the use of a head-mounted display
               and hand controllers.</span>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="my-5 border border-warning p-5 ms-md-3">
+        <div class="col-md-6 animate__animated animate__fadeInLeft">
+          <div class="my-5 border border-warning  p-3 p-md-5 me-md-5 highlighted-card">
             <img class="d-block mb-4" height="30" src="./assets/images/mar_ico.png">
-            <h3 class="text-uppercase h3 text-dark py-2">Mobile or Augmented Reality (AR)</h3>
+            <h4 class="text-uppercase h4 text-dark py-2 text-md-nowrap fw-bolder">Mobile or Augmented Reality (AR)</h4>
             <span class="text-small mt-3">Use a phone or tablet to interact with EPL products on the go. Leverage the
               camera to place objects in your space using AR. </span>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="my-4 border border-warning p-5 me-md-3">
+        <div class="col-md-6 animate__animated animate__fadeInRight">
+          <div class="my-4 border border-warning  p-3 p-md-5 me-md-5">
             <img class="d-block mb-4" height="30" src="./assets/images/mr_ico.png">
-            <h3 class="text-uppercase h3 text-dark py-2">Mixed Reality (MR)</h3>
+            <h4 class="text-uppercase h4 text-dark py-2 text-md-nowrap fw-bolder">Mixed Reality (MR)</h4>
             <span class="text-small mt-3">Wearable AR experience that heightens the sense of immersion and offers
               hands-free productivity. </span>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="my-4 border border-warning p-5 ms-md-3">
+        <div class="col-md-6 animate__animated animate__fadeInRight">
+          <div class="my-4 border border-warning p-3 p-md-5 me-md-5">
             <img class="d-block mb-4" height="30" src="./assets/images/pcm_ico.png">
-            <h3 class="text-uppercase h3 text-dark py-2">pc and mac</h3>
+            <h4 class="text-uppercase h4 text-dark py-2 text-md-nowrap fw-bolder">pc and mac</h4>
             <span class="text-small mt-3">View and interact with 3D objects on screen using a desktop computer.
               Deliverable is available via app or web browser. </span>
           </div>
@@ -128,81 +134,98 @@
       </div>
     </div>
   </section>
-  <section class="bg_home_3 position-relative">
-    <div class="container py-5">
-      <div class="row ">
-        <div class="col-md-6">
-          <span class="">
-            <span class="text-warning text-uppercase">industries</span>
-            <h1 class="text-white h1 text-uppercase">Extended Reality in Any <br>Industry</h1>
+  <section class="bg_home_3 position-relative p-5">
+    <div class="container py-md-5 my-md-5">
+      <div class="row">
+        <div class="col-12">
+          <span class="text-warning d-flex align-items-center mb-3 animate__animated animate__fadeInLeft">
+            <span class="span-rect animate__animated animate__slideInDown"></span>
+            <span class="text-uppercase h5">industries</span>
           </span>
         </div>
-        <div class="col-md-6">
-          <span class="text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
+        <div class="col-md-5">
+          <h1 class="text-white h1 text-uppercase mt-5 animate__animated animate__fadeInRight">Extended Reality in Any <br>Industry</h1>
+        </div>
+        <div class="col-md-7">
+          <div class="mt-5 ms-md-3 ps-md-5">
+            <p class="fs-6 text-muted text-white animate__animated animate__fadeInLeft">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+            </p>
+          </div>
         </div>
         <div class="col-md-6">
-          <div class="d-block my-5" style="height: 339px;">
-            <img class="position-absolute d-block" style="left: 0px" height="339" width="671"
+          <div class="d-block my-5 abstract-bg">
+            <img class="position-absolute d-block gear-img animate__animated animate__fadeInLeft"
               src="./assets/images/gear_img.png">
           </div>
 
         </div>
-        <div class="col-md-6">
-          <ul class="text-uppercase text-white">
-            <li>XR IN HEALTHCARE</li>
-            <li>
-              <span>XR IN MANUFACTURING</span>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
-            </li>
-            <li>XR in Transportation</li>
-            <li> XR in Marketing</li>
-            <li>XR in Architecture</li>
-            <li>XR in Service and Repair</li>
-            <li>XR in Life Science</li>
-            <li>XR in Skilled Training</li>
+        <div class="col-md-6 animate__animated animate__fadeInRight">
+          <div class="d-flex align-items-center mt-5">
+            <ul class="text-uppercase text-white cs-marker">
+              <li>XR IN HEALTHCARE</li>
+              <li class="extend">
+                <div class="d-block">
+                  <h5 class="text-warning h5 d-block">XR IN MANUFACTURING</span>
+                  <div class="fs-13 text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                  </div>
+                  <div class="d-flex justify-content-end align-items-center mt-4 mt-md-0">
+                    <span class="span-rect"></span>
+                    <span class="text-warning text-uppercase mb-2">LEARN MORE</span>
+                  </div>
+                </div>
+              </li>
+              <li>XR in Transportation</li>
+              <li> XR in Marketing</li>
+              <li>XR in Architecture</li>
+              <li>XR in Service and Repair</li>
+              <li>XR in Life Science</li>
+              <li>XR in Skilled Training</li>
+            </ul>
+          </div>
         </div>
-        <div class="col-12 mt-5 text-center">
-          <h1 class="text-white h1 text-uppercase text-center">ready to learn how elm park labs <br>can eLEVATE your
+        <div class="col-12 my-5 text-center py-md-5">
+          <h1 class="text-white h1 text-uppercase text-start text-md-center animate__animated animate__fadeInDown">ready to learn how elm park labs <br>can eLEVATE your
             process?<h1>
-          <a class="btn btn-outline-warning btn-lg my-2 my-sm-0" href="#">GET IN TOUCH</a>
+          <a class="btn btn-outline-warning btn-lg my-2 px-5 mt-5 animate__animated animate__fadeIn" href="#">CONTACT</a>
         </div>
       </div>
     </div>
 
     </div>
   </section>
-  <footer style="min-height: 148px;" class="bg-dark py-5">
-    <div class="container">
-      <div class="row">
+  <footer class="py-5 animate__animated animate__fadeInUp">
+    <div class="container-md">
+      <div class="row mx-4 mx-md-0">
         <div class="col-md-5">
-          <img src="./assets/images/logo_full_text.png" height="74" width="319">
+          <img src="./assets/images/logo_full_text.png" class="mb-4 mb-md-0" height="74" width="319">
         </div>
         <div class="col-md-4">
             <div class="row">
-              <div class="col-md-4">
-                <span class="text-white text-uppercase">industries</span>
+              <div class="col-md-4 mb-3">
+                <a class="link-light text-uppercase text-decoration-none fw-bold mb-3" href="#">industries</a>
               </div>
-              <div class="col-md-4">
-                <span class="text-white text-uppercase">resources</span>
+              <div class="col-md-4 mb-3">
+                <a class="link-light text-uppercase text-decoration-none fw-bold" href="#">resources</a>
               </div>
-              <div class="col-md-4">
-                <span class="text-white text-uppercase">CLIENT LOGIN</span>
+              <div class="col-md-4 mb-3">
+                <a class="link-light text-uppercase text-decoration-none fw-bold" href="#">CLIENT LOGIN</a>
               </div>
-              <div class="col-md-4">
-                <span class="text-white text-uppercase">solutions</span>
+              <div class="col-md-4 mb-3">
+                <a class="link-light text-uppercase text-decoration-none fw-bold" href="#">solutions</a>
               </div>
-              <div class="col-md-4">
-                <span class="text-white text-uppercase">company</span>
+              <div class="col-md-4 mb-3">
+                <a class="link-light text-uppercase text-decoration-none fw-bold" href="#">company</a>
               </div>
-              <div class="col-md-4">
-                <span class="text-white text-uppercase">get in touch</span>
+              <div class="col-md-4 mb-3">
+                <a class="link-light text-uppercase text-decoration-none fw-bold" href="#">get in touch</a>
               </div>
             </div>
         </div>
-        <div class="col-md-3">
-          <span class="h4 text-warning">contact@elmparklabs.com</span>
+        <div class="col-md-3 text-md-end">
+          <span class="h4 text-warning fw-light">contact@elmparklabs.com</span>
         </div>
         <div class="col-md-6 mt-5">
           <span class="text-light me-3">Privacy Policy</span>
