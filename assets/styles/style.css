@@ -58,8 +58,17 @@
     width: 100%;
 }
 
+.process-img{
+    left: 0;
+    width: 100%;
+}
+
 .abstract-bg{
     height: 200px;
+}
+
+.abstract-bg-process{
+    height: 540px;
 }
 
 @media (min-width: 768px){
@@ -77,6 +86,12 @@
         left: 0;
         height: 416px;
         width: auto;
+    }
+
+    .process-img{
+        left: 0;
+        height: auto;
+        width: 45%;
     }
 
     .abstract-bg{
@@ -99,10 +114,42 @@
     color: #0aa2bc !important;
 }
 
+.btn-primary{
+    background-color: #0aa2bc !important;
+}   
+
+.btn.btn-outline-primary{
+    border-color: #0aa2bc !important;
+    color: #0aa2bc !important;
+    border-width: 3px;
+    border-radius: 0;
+    font-weight: bolder;
+} 
+
+.btn.btn-outline-primary:hover {
+    color:white !important;
+    border-color:rgb(10, 162, 188) !important;
+    border-width: 3px;
+    border-radius: 0;
+    background: rgb(10, 162, 188);
+}
+
+.bg_solutions_3{
+    background-color: rgb(245, 248, 249);
+    display: flex;
+}
+
+.bg_solutions_4 {
+    background-color: rgb(22, 25, 31);
+    display: flex;
+}
+  
+
 .span-separator{
     content: url(../../assets/images/elm_suite_separator.svg);
     position: absolute;
     right: 10px;
+    bottom: 0;
 }
   
 .text-description-over-blue {
@@ -112,6 +159,16 @@
     opacity: .7;
 }
   
+.shadow-card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 78.81px 32.19px rgba(32, 32, 32, 0.07);
+    z-index: 60;
+    min-height: 298px;
+}
+  
+.right-card{
+    margin-bottom: 9rem !important;
+}
 
 .text-warning{
     color:rgb(246, 200, 14) !important;
@@ -163,6 +220,12 @@
     height: 118px;
     background: rgb(246, 200, 14);
     color: rgb(246, 200, 14);
+}
+
+.cs-marker .extend-primary::before{
+    height: 118px;
+    background: #0aa2bc !important;
+    color: #0aa2bc !important;
 }
 
 .cs-marker {
